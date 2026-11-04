@@ -2,6 +2,10 @@
 
 [繁體中文](README.md) · [English](README.en.md)
 
+### 🌌 [Launch the Interactive Simulator (Live Demo)](https://ghostfung.github.io/galaxy-solar-system-motion-lab/)
+
+> 💻 **For the best experience, please use a desktop browser (Chrome, Edge, or Firefox).** This project features real-time 3D rendering, free-camera navigation, and interactive controls. Mobile and tablet experiences may be limited by screen size and device performance.
+
 An interactive browser-based 3D astronomy visualization. Explore the eight planets, the Earth–Moon system, Halley's Comet, Voyager 1, the Milky Way, nearby dwarf galaxies, Andromeda, black-hole visuals, and the three stars of Orion's Belt.
 
 > **Educational visualization, not a precision N-body simulator.** Celestial sizes, orbital distances, interstellar distances, and intergalactic scales are intentionally adjusted to make objects visible and accessible. Some trajectories and visual effects are schematic; see [Science Notes](SCIENCE_NOTES.md).
@@ -31,7 +35,7 @@ No build step, package manager, or database is needed.
    ```
    Open `http://localhost:8000/`.
 
-To publish on **GitHub Pages**, see [PUBLISHING.md](PUBLISHING.md). A ZIP download is **not** a live deployed site.
+**Live version:** Open the [GitHub Pages simulator](https://ghostfung.github.io/galaxy-solar-system-motion-lab/) without downloading or installing anything. To host your own copy, see [PUBLISHING.md](PUBLISHING.md).
 
 ## Default settings
 
@@ -68,5 +72,5 @@ Project-authored code and documentation: **[MIT License](LICENSE)**. External me
 
 No NASA, ESA, ESO, NOIRLab, or third-party endorsement is claimed.
 
-**Release status:** v1.0.0 release-candidate packaging of the V11 simulator. Publisher credits and visible media-license links have been reviewed. The embedded Basemap Data/NASA Earth texture provenance and remote image availability still need final testing before public launch.
+**Release status:** v1.0.0 publicly available source release based on the V11 simulator. Publisher credits and visible media-license links have been reviewed. The embedded Basemap Data/NASA Earth texture provenance and remote image availability still require ongoing verification in the publicly available release.
 > **Media rights**: The globe contains NASA Blue Marble imagery from a Basemap Data distribution (LGPL). ESA's Giotto photograph also has separate usage terms; see [ASSETS_CREDITS.md](ASSETS_CREDITS.md).
