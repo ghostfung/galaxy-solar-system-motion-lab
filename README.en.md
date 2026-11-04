@@ -68,4 +68,5 @@ Project-authored code and documentation: **[MIT License](LICENSE)**. External me
 
 No NASA, ESA, ESO, NOIRLab, or third-party endorsement is claimed.
 
-**Release status:** v1.0.0 release-candidate packaging of the V11 simulator. Per-image attribution and embedded-asset provenance should receive a final review before the public repository is launched.
+**Release status:** v1.0.0 release-candidate packaging of the V11 simulator. Publisher credits and visible media-license links have been reviewed. The embedded Basemap Data/NASA Earth texture provenance and remote image availability still need final testing before public launch.
+> **Media rights**: The globe contains NASA Blue Marble imagery from a Basemap Data distribution (LGPL). ESA's Giotto photograph also has separate usage terms; see [ASSETS_CREDITS.md](ASSETS_CREDITS.md).
