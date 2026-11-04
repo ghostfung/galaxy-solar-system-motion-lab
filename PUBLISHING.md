@@ -18,8 +18,8 @@
 ## 發佈前必檢 / Mandatory pre-publication checks
 
 - [ ] 你有權將原創程式碼以 MIT 授權公開。
-- [ ] 所有**內嵌**的影像貼圖已確認來源與重用權利，並署名。
-- [ ] 確認官方影像檔各自所列的完整 credit；CC BY/CC BY-SA 依條款署名及連結授權。
+- [ ] 確認內嵌地球貼圖的 **NASA Earth Observatory + Basemap Data LGPL** 來源、授權、必要告知及重用條件。
+- [ ] 確認官方影像檔各自所列的完整 credit；CC BY/CC BY-SA 依條款署名及連結授權；Giotto 影像非 MIT，ESA 限制商業使用。
 - [ ] 外部照片無誤用權利不明的第三方轉載網址。
 - [ ] 沒有密碼、API Key、Token、私人資料或隱藏管理功能。
 - [ ] 在 Chrome／Edge 完成 WebGL 實機測試。
