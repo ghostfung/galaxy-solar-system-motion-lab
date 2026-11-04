@@ -3,6 +3,10 @@
 
 [繁體中文](README.md) · [English](README.en.md)
 
+### 🌌 [線上體驗模擬器（Live Demo）](https://ghostfung.github.io/galaxy-solar-system-motion-lab/)
+
+> 💻 **最佳體驗建議：請使用電腦版瀏覽器（Chrome、Edge 或 Firefox）開啟。** 本專案包含即時 3D 渲染、自由鏡頭與多項互動操作；手機和平板可能因螢幕尺寸與效能限制而影響使用體驗。
+
 一個可直接在瀏覽器使用的互動式 3D 天文視覺化專案。從八大行星、地月運動、哈雷彗星與航海家一號，到銀河系、附近矮星系、仙女座星系、黑洞及獵戶座腰帶三顆恆星，透過可自由操作的鏡頭觀察宇宙中的運動關係。
 
 > **重要：這是教育及視覺探索工具，不是精密天體力學模擬器。** 為了讓行星與星系可見，天體直徑、天體間距離與不同尺度間的間距皆經過視覺調整。部分軌跡、恆星相對位置、星系互動及黑洞效果為近似或示意。見 [科學模型說明](SCIENCE_NOTES.md)。
@@ -32,7 +36,7 @@
    ```
    然後開啟 `http://localhost:8000/`。
 
-> **GitHub Pages**：公開專案後，在 **Settings → Pages → Deploy from a branch → `main` / `(root)`** 啟用。設定詳見 [發佈說明](PUBLISHING.md)。**本專案包本身不代表 GitHub Pages 已上線。**
+> **線上版本**：可直接使用 [GitHub Pages 線上模擬器](https://ghostfung.github.io/galaxy-solar-system-motion-lab/)，無須下載或安裝。自行部署方式參閱 [發佈說明](PUBLISHING.md)。
 
 ## 預設畫面
 
@@ -76,5 +80,5 @@
 
 ### 專案現況
 
-版本：**v1.0.0 發佈候選整理版（V11 模擬器基礎）**。功能內容可供使用，但**官方影像署名及資料卡授權連結已重新核對；內嵌地球貼圖的 Basemap Data／NASA 來源鏈，以及實際瀏覽器的外部圖片載入仍需最終驗收**。請勿將整份程式碼和第三方圖片統稱為 MIT。
+版本：**v1.0.0 公開程式版本（V11 模擬器基礎）**。功能內容可供使用，但**官方影像署名及資料卡授權連結已重新核對；內嵌地球貼圖的 Basemap Data／NASA 來源鏈，以及實際瀏覽器的外部圖片載入仍需最終驗收**。請勿將整份程式碼和第三方圖片統稱為 MIT。
 > **素材授權提醒**：地球貼圖源自 NASA Earth Observatory 的 Blue Marble，並透過 Basemap Data（LGPL）取得；ESA Giotto 哈雷彗星影像有獨立使用條件。詳見 [ASSETS_CREDITS.md](ASSETS_CREDITS.md)。
