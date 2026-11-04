@@ -1,0 +1,9 @@
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local test artifacts
+node_modules/
+coverage/
+*.log
