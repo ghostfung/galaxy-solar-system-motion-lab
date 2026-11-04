@@ -1,0 +1,71 @@
+# Galaxy & Solar System Motion Lab
+
+[繁體中文](README.md) · [English](README.en.md)
+
+An interactive browser-based 3D astronomy visualization. Explore the eight planets, the Earth–Moon system, Halley's Comet, Voyager 1, the Milky Way, nearby dwarf galaxies, Andromeda, black-hole visuals, and the three stars of Orion's Belt.
+
+> **Educational visualization, not a precision N-body simulator.** Celestial sizes, orbital distances, interstellar distances, and intergalactic scales are intentionally adjusted to make objects visible and accessible. Some trajectories and visual effects are schematic; see [Science Notes](SCIENCE_NOTES.md).
+
+## Features
+
+- **3D planetary orbits** with approximate JPL orbital elements, distinct ascending nodes and perihelion directions, side-on views and inclination exaggeration.
+- **Earth–Moon lab** with orbital motion, approximate lunar phases, and schematic eclipse-alignment conditions.
+- **Galaxies** including the Milky Way's center, Andromeda, Triangulum, and dwarf galaxies, with bilingual information cards.
+- **Orion's Belt**: Alnitak, Alnilam and Mintaka, including a Sun-direction view and an oblique 3D comparison.
+- **Camera and timeline controls**: free flight, physical-time and demonstration modes, speed, zoom, focus selection and guided tour.
+- **Display options**: motion trails, planetary and Halley orbit lines, ecliptic plane and galactic grid.
+- **Traditional Chinese / English** user interface.
+- **Astronomical photos and illustrations** with separate attribution and licensing requirements documented in [ASSETS_CREDITS.md](ASSETS_CREDITS.md).
+
+## Run locally
+
+No build step, package manager, or database is needed.
+
+1. Download the repository contents.
+2. Open `index.html` in a modern Chrome, Edge, or Firefox browser.
+3. **An internet connection is required** for Three.js, Tailwind CSS, fonts, and most information-card images.
+4. If your browser restricts `file://` pages, start a local static server:
+
+   ```bash
+   python -m http.server 8000
+   ```
+   Open `http://localhost:8000/`.
+
+To publish on **GitHub Pages**, see [PUBLISHING.md](PUBLISHING.md). A ZIP download is **not** a live deployed site.
+
+## Default settings
+
+| Setting | Default |
+| --- | --- |
+| Time mode | Physical |
+| Camera focus | Sun |
+| Simulation speed | 0.1 years / second |
+| Zoom | 50% |
+| Motion trails | On |
+| Planetary and Halley orbit lines | Off (user-toggleable) |
+| Ecliptic and galactic grids | Off (user-toggleable) |
+
+## Technology
+
+- Vanilla HTML, CSS and JavaScript
+- [Three.js](https://threejs.org/) r128 (external CDN)
+- [Tailwind CSS](https://tailwindcss.com/) (external CDN)
+- Google Fonts (external)
+
+The main program is kept in one HTML file for easy experimentation. Contributions that improve maintainability without breaking established behavior are welcome.
+
+## Scientific limitations
+
+Planetary orbital data are approximate. Object radii and distances are **not to a single real-world scale**. Galactic motion, black-hole lensing and eclipse visualizations are educational approximations rather than high-precision astrophysical calculations. See [SCIENCE_NOTES.md](SCIENCE_NOTES.md).
+
+## Contributing
+
+Issues, pull requests, forks, and educational adaptations are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). For new photographic assets, include their original source page, author/credit, licensing terms, and any required notices.
+
+## License and media credits
+
+Project-authored code and documentation: **[MIT License](LICENSE)**. External media and third-party libraries have **separate rights and conditions** and are **not automatically MIT-licensed**; see [ASSETS_CREDITS.md](ASSETS_CREDITS.md). The Orion's Belt photograph is CC BY-SA 4.0.
+
+No NASA, ESA, ESO, NOIRLab, or third-party endorsement is claimed.
+
+**Release status:** v1.0.0 release-candidate packaging of the V11 simulator. Per-image attribution and embedded-asset provenance should receive a final review before the public repository is launched.
